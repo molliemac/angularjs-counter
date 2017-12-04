@@ -2,9 +2,8 @@
 <head>
 	<title>AngularJS Counter</title>
 </head>
-<body>
-	<p>Hello world!</p>
-	<p>Three plus three is {{34+ 3}}</p>
+<body ng-controller = "CounterController as counter">
+	<p>Count: {{ counter.number }}</p>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
 	<script src="app.js"></script>
